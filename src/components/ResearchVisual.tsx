@@ -97,7 +97,8 @@ function Vial({
         y="199"
         fontFamily="Arial,sans-serif"
         fontSize="5.4"
-        letterSpacing="1"
+        textLength="85"
+        lengthAdjust="spacingAndGlyphs"
         fill="#64748b"
       >
         FOR LABORATORY RESEARCH ONLY

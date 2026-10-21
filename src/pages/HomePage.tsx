@@ -89,11 +89,9 @@ export default function HomePage() {
             },
           ].map(({ icon: Icon, title, text }) => (
             <div key={title} className="flex items-center gap-3">
-              <Icon
-                size={23}
-                strokeWidth={1.4}
-                className="shrink-0 text-emerald-700"
-              />
+              <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-700">
+                <Icon size={20} strokeWidth={1.5} />
+              </span>
               <div>
                 <p className="text-[11px] font-semibold text-slate-800">
                   {title}
